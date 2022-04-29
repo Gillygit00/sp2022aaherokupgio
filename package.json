@@ -1,0 +1,26 @@
+{
+  "name": "sp2022aaherokupgio",
+  "version": "1.0.0",
+  "description": "Sample Application on Heroku Using PostgreSQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gillygit00/sp2022aaherokupgio.git"
+  },
+  "author": "Gilbert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gillygit00/sp2022aaherokupgio/issues"
+  },
+  "homepage": "https://github.com/Gillygit00/sp2022aaherokupgio#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.7",
+    "express": "^4.18.0",
+    "pg": "^8.7.3"
+  }
+}
